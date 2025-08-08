@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    .box1{
+      background-color: rgb(14, 126, 126); 
+      height: 330px; 
+      width: 350px; 
+      padding: 30px;
+      font-weight: 700;
+      border: 5px double white;
+    }
+    .box2{
+      background-color: rgb(227, 227, 73); 
+      padding: 30px; 
+      width: 280px;
+      border: 3px dashed black;
+
+    }
+    .box3{
+      background-color: rgb(33, 151, 33); 
+      padding: 30px; 
+      width: 210px;
+      border: 3px inset violet;
+    }
+    .box4{
+      background-color: rgb(248, 201, 113);
+      padding: 30px; 
+      width: 140px;
+      text-align: center;
+      border: 3px dotted black
+    }
+  </style>
+
+</head>
+<body>
+
+ <h1>Box Model:</h1>
+ <p>It is used to describe the layout of an element. It has 4 components:</p>
+ <ol>
+  <li>Content</li>
+  <li>Padding</li>
+  <li>Border</li>
+  <li>Margin</li>
+ </ol> 
+  <div class="box1">margin
+    <div class="box2">border
+      <div class="box3">padding
+        <div class="box4">content</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

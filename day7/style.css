@@ -1,0 +1,323 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  width: 75%;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0px 0px 8px 8px rgb(236, 148, 148) inset;
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+div p{
+  display: inline-block;
+  margin: 5%;
+}
+.box1{
+  height: 20rem;
+  width: 15rem;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  padding: 10% 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+  transition:  2rem 10s ease-out 10s;
+}
+.box1:hover {
+  font-family: "Oswald", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box2{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box2:hover {
+  font-family: "Kanit", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box3{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 1.6%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box3:hover {
+  font-family: "Josefin Slab", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box4{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box4:hover {
+  font-family: "Danfo", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box5{
+  height: 20rem;
+  width: 15rem;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  padding: 10% 2%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box5:hover {
+  font-family: "Great Vibes", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+
+.box6{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box6:hover {
+  font-family: "Playball", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box7{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box7:hover {
+  font-family: "Lobster", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box8{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box8:hover {
+  font-family: "Rowdies", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box9{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box9:hover {
+  font-family: "Pacifico", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box10{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box10:hover {
+  font-family: "Micro 5", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box11{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box11:hover {
+  font-family: "Jacquard 12", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box12{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box12:hover {
+  font-family: "Shadows Into Light", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box13{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box13:hover {
+  font-family: "Tiny5", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box14{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box14:hover {
+  font-family: "Permanent Marker", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box15{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 3%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box15:hover {
+  font-family: "Abril Fatface", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box16{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 3%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box16:hover {
+  font-family: "DM Serif Text", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box17{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box17:hover {
+  font-family: "Playwrite IN", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box18{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box18:hover {
+  font-family: "Jersey 20", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box19{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box19:hover {
+  font-family: "Oooh Baby", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+.box20{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: #F4CCE9;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box20:hover {
+  font-family: "Italiana", serif;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: rgb(246, 221, 153);
+}
+

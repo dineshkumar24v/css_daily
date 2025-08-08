@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex</title>
+</head>
+<style>
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  img{
+    height: 80px;
+  }
+  .parent1{
+    width: 250px;
+    height: 215px;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .parent1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .parent2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .parent3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #p1{
+    color: rgb(179, 176, 176);
+  }
+  #star{
+    height: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 900;
+  }
+  a:hover{
+    font-size: 18px;
+  }
+</style>
+<body>
+  <div class="parent1">
+    <div class="parent2">
+      <img src="images/kp.avif" alt="image">
+      <div>
+        <h3>KP Academy</h3>
+        <p id="p1">Education</p>
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+      </div>
+    </div>
+    <ul>
+      <li>Good communication skills</li>
+      <li>Good communication skills</li>
+    </ul>
+    <div class="parent3">
+      <p>Installed 1218 times</p>
+      <a href="#">view more</a>
+    </div>
+  </div>
+  <div class="parent1">
+    <div class="parent2">
+      <img src="images/academy.jpg" alt="image">
+      <div>
+        <h3>JP Academy</h3>
+        <p id="p1">Education</p>
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+      </div>
+    </div>
+    <ul>
+      <li>Good communication skills</li>
+      <li>Good interpersonal skills</li>
+    </ul>
+    <div class="parent3">
+      <p>Installed 1128 times</p>
+      <a href="#">view more</a>
+    </div>
+  </div>
+  <div class="parent1">
+    <div class="parent2">
+      <img src="images/kp.avif" alt="image">
+      <div>
+        <h3>DK Academy</h3>
+        <p id="p1">Education</p>
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+      </div>
+    </div>
+    <ul>
+      <li>Good communication skills</li>
+      <li>Good interpersonal skills</li>
+    </ul>
+    <div class="parent3">
+      <p>Installed 1281 times</p>
+      <a href="#">view more</a>
+    </div>
+  </div>
+  <div class="parent1">
+    <div class="parent2">
+      <img src="images/academy.jpg" alt="image">
+      <div>
+        <h3>Academy</h3>
+        <p id="p1">Education</p>
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+      </div>
+    </div>
+    <ul>
+      <li>Good communication skills</li>
+      <li>Good interpersonal skills</li>
+    </ul>
+    <div class="parent3">
+      <p>Installed 12081 times</p>
+      <a href="#">view more</a>
+    </div>
+  </div>
+  <div class="parent1">
+    <div class="parent2">
+      <img src="images/kp.avif" alt="image">
+      <div>
+        <h3>PK Academy</h3>
+        <p id="p1">Education</p>
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+      </div>
+    </div>
+    <ul>
+      <li>Good communication skills</li>
+      <li>Good interpersonal skills</li>
+    </ul>
+    <div class="parent3">
+      <p>Installed 1028 times</p>
+      <a href="#">view more</a>
+    </div>
+  </div>
+  <div class="parent1">
+    <div class="parent2">
+      <img src="images/academy.jpg" alt="image" style="height: 70px;">
+      <div>
+        <h3>PJ Academy</h3>
+        <p id="p1">Education</p>
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+        <img src="images/star.png" alt="" id="star">
+      </div>
+    </div>
+    <ul>
+      <li>Good communication skills</li>
+      <li>Good interpersonal skills</li>
+    </ul>
+    <div class="parent3">
+      <p>Installed 1528 times</p>
+      <a href="#">view more</a>
+    </div>
+  </div>
+</body>
+</html>

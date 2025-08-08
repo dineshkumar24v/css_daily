@@ -1,0 +1,264 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  width: 75%;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  /* box-shadow: -5px -5px rgb(145, 144, 144); */
+  /* box-shadow: 8px 8px rgb(193, 187, 187); */
+  box-shadow: 0px 0px 8px 8px rgb(236, 148, 148) inset;
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+div p{
+  display: inline-block;
+  margin: 5%;
+}
+.box1{
+  height: 20rem;
+  width: 15rem;
+  background-color: aqua;
+  border-radius: 5%;
+  padding: 10% 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box1:hover {
+  font-family:'Courier New';
+}
+.box2{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box2:hover {
+  font-family:monospace;
+}
+.box3{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 1.6%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box3:hover {
+  font-family:'Franklin Gothic Medium';
+}
+.box4{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box4:hover {
+  font-family:'Arial Narrow';
+}
+.box5{
+  height: 20rem;
+  width: 15rem;
+  background-color: aqua;
+  border-radius: 5%;
+  padding: 10% 2%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box5:hover {
+  font-family:sans-serif;
+}
+
+.box6{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box6:hover {
+  font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+.box7{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box7:hover {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box8{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box8:hover {
+  font-family:Arial, Helvetica, sans-serif;
+}
+.box9{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box9:hover {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box10{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box10:hover {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box11{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box11:hover {
+  font-family: "Jacquard 12", serif;
+}
+.box12{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box12:hover {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box13{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box13:hover {
+  font-family: "Tiny5", serif;
+}
+.box14{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box14:hover {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box15{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 3%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box15:hover {
+  font-family: "Abril Fatface", serif;
+}
+.box16{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 3%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box16:hover {
+  font-family: "DM Serif Text", serif;
+}
+.box17{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box17:hover {
+  font-family:monospace;
+}
+.box18{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 5%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box18:hover {
+  font-family:'fantasy';
+}
+.box19{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 2%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box19:hover {
+  font-family:cursive;
+}
+.box20{
+  height: 20rem;
+  width: 15rem;
+  padding: 10% 4%;
+  background-color: aqua;
+  border-radius: 5%;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 8px rgb(104, 104, 104);
+}
+.box20:hover {
+  font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+

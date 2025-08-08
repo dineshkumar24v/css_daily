@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    }
+  /* navbar********/
+    header{
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      /* padding: 1.5rem; */
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    header .child1{
+      display: flex;
+      gap: 30px;
+      text-align: center;
+
+    }
+/* herosection********/
+    .herosection{
+      margin-bottom: 6%;
+      position: relative;
+    }
+    .herosection img{
+      width: 100%;
+      height: 100vh;
+    }
+    .herosection h1{
+      position: absolute;
+      bottom: 0; 
+      left: 0;
+      padding: 20px;
+      color: grey;
+    }
+
+    /* catering section**** */
+    .container{
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px;
+    }
+
+    .container img{
+      height: 38rem;
+      padding: 40px;
+    }
+    .div2{
+      flex-basis: 50%;
+      text-align: center;
+    }
+    .div2 h2{
+      padding: 30px;
+    }
+    .div2 h4{
+      padding: 20px;
+    }
+    /* menu */
+    .menu{
+      display: flex;
+      margin: 100px;
+      padding: 20px;
+    }
+    .menu h1{
+      text-align: center;
+    }
+    .menu .menuone{
+      padding: 40px;
+    }
+    /* contact ************/
+    .contact{
+      margin: 50px;
+    }
+    .contact input{
+      width: 90%;
+      height: 50px;
+      margin: 10px;
+      border: none;
+      border-bottom: 1px solid rgb(174, 169, 169);
+      }
+    .contact h1, p, h3 {
+      padding: 20px;
+    }
+    .contact button{
+      padding: 10px;
+      border: none;
+    }
+    /* /footer */
+    footer p{
+      background-color: black;
+      height: 10vh;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- navbar-------- -->
+   <header>
+    <p>Gourmet au Catering</p>
+    <div class="child1">
+      <p>About</p>
+      <p>Menu</p>
+      <p>Contact</p>
+    </div>
+   </header>
+   <!-- herosection--------->
+    <div class="herosection">
+      <img src="images/hamburger.jpg" alt="image">
+      <h1>Le Catering</h1>
+    </div>
+    <!-- catering section--------->
+  <div class="container">
+    <img src="images/tablesetting2.jpg" alt="image">
+    <div class="div2">
+      <h2>About Catering</h2>
+      <h4>Tradition since 1889 </h4>
+      <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients. <br><br>
+
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <!-- menu section -->
+     <div class="menu">
+      <div class="menuone">
+        <h1>Our Menu</h1>
+        <h3>Bread Basket</h3>
+        <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+        <br><br>
+        <h3>Honey Almond Granola with Fruits</h3>
+        <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        <br><br>
+        <h3>Belgian Waffle</h3>
+        <p>Vanilla flavored batter with malted flour 7.50</p>
+        <br><br>
+        <h3>Scrambled eggs</h3>
+        <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+        <br><br>
+        <h3>Blueberry Pancakes</h3>
+        <p>With syrup, butter and lots of berries 8.50</p>
+      </div>
+
+        <img src="images/tablesetting.jpg" alt="image">
+     </div>
+
+     <!-- contact section -->
+      <div class="contact">
+        <h1>Contact</h1>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+
+        <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <div>
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="How many people">
+          <input type="date">
+          <input type="text" placeholder="Message\Special requirements">
+          <button>SEND MESSAGE</button>
+        </div>
+      </div>
+
+      <!-- footer -->
+       <footer>
+        <p>Powered by DineshDinnu</p>
+       </footer>
+  </div>
+</body>
+</html>

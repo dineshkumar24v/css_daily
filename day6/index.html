@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>my watsapp</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 90vh;
+    width: 50vh;
+    border: 5px solid black;
+    border-radius: 7%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  /* nav*********/
+  nav{
+    height: 5%;
+    background-color: black;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    color: white;
+  }
+  nav i{
+    padding: 6px;
+  }
+  nav span{
+    margin: 3%;
+  }
+  nav div{
+    display: inline-block;
+    margin-left: 32%;
+  }
+  nav div i{
+    text-align: right;
+  }
+  header{
+    height: 10%;
+    background-color: green;
+    color: white;
+    padding: 3%;
+  }
+  header #leftarrow{
+    margin-right: 3%;
+  }
+  header #leftarrow:hover{
+    cursor: pointer;
+    color: black;
+  }
+  header span{
+    color: white;
+    margin-left: 4%;
+  }
+  header .nav-div1{
+    display: inline-block;
+    margin-left: 12%;
+  }
+  header .nav-div1 i{
+    padding: 10px;  
+  }
+  header .nav-div1 i:hover{
+    color: black;
+    cursor: pointer;
+  }
+  /* body*********************/
+.body-div{
+  height: 75%;
+  overflow: scroll;
+  scrollbar-width: none;
+  background-image: url(grass.jpg);
+  background-repeat: round;
+}
+.body-div .date{
+
+  width: 27%;
+  background-color: rgb(196, 196, 195);
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  position: sticky;
+  margin-top: 1%;
+  top: 0;
+  padding: 1%;
+}
+.body-div .left{
+  width: fit-content;
+  background-color: rgb(179, 184, 222);
+  border-radius: 10px;
+  padding: 1.2%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.body-div .right{
+  text-align: right;
+  margin-right: 2%;
+}
+.body-div span{
+  text-align: right;
+  background-color: rgb(179, 184, 222);
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 5%;
+  /* width: 30vw; */
+  border-radius: 10px;
+  padding-top: 1%;
+}
+.body-div p {
+  font-size: 12px;
+  color: rgb(115, 114, 114);
+}
+.body-div p i{
+  color: rgb(94, 181, 215);
+  padding-left: 1%;
+  padding-right: 3%;
+  /* margin-right: 1%; */
+}
+  
+/* footer************/
+  footer{
+    height: 10%;
+    background-color: black;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: white;
+  }
+  footer .footer-div>input{
+    height: 50px;
+    width: 120px;
+    border-bottom-left-radius: 16px;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+  }
+  .footer-div i {
+    margin: 6px;
+    width: 30px;
+    padding: 8px;
+  }
+  .footer-div i:hover{
+    color: green;
+    cursor: pointer;
+  }
+  #microphone{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+    align-items: center;
+    color: white;
+  }
+  #microphone:hover{
+    color: black;
+    cursor: pointer;
+  }
+</style>
+<body>
+  <!-- nav --------------->
+   <nav>
+    <span>02:01 PM</span>
+    <div>
+      <i class="fa-solid fa-headset"></i>
+      <i class="fa-solid fa-signal"></i>5G
+      <i class="fa-solid fa-battery-half"></i>
+    </div>
+   </nav>
+  <header>
+    <i class="fa-solid fa-arrow-left" id="leftarrow"></i>
+    <!-- <img src="mahi.webp" alt="image"> -->
+    <!-- <i class="fa-solid fa-circle-user"></i> -->
+    <!-- <i class="fa-solid fa-user-large"></i> -->
+    <!-- <i class="fa-solid fa-user-graduate"></i> -->
+    <i class="fa-solid fa-user-group"></i>
+     
+    <span>Btech Frndz</span>
+
+    <div class="nav-div1">
+      <i class="fa-solid fa-video"></i>
+      <i class="fa-solid fa-phone"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+  </header>
+
+  <!-- body ---------------------->
+    <div class="body-div">
+      <div class="date">1/01/2025</div>
+      <div class="left">Lorem ipsum🔥 <p>8:05 am </p></div>
+      <div class="right"><span>dolor sit lorem🙂</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit😨<p>8:06 am</p></div>
+      <div class="right"><span>qrum ha Ipsum?😍</span><p>8:05<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim mtias🫠 <p>8:06 am</p></div>
+      <div class="right"><span>laborum  Ipsum?🫠</span><p>9:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque🙂 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?😍</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit👍 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum😨</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Lorem ipsum😍 <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem👍</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit🙂 <p>8:06 am</p></div>
+      <div class="right"><span>laborum harum! Ips😨</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim 😍estias <p>8:06 am</p></div>
+      <div class="right"><span>borum harum sum🙂</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque😨 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?👍</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit🍒 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?👍</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+
+      <div class="date">5/01/2025</div>
+      <div class="left">Lorem ipsum😨 <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem🥵</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit🫠 <p>8:06 am</p></div>
+      <div class="right"><span>laboru Ipsum?💥</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim stias👍 <p>8:06 am</p></div>
+      <div class="right"><span>laborum ha Ipsum?🥵</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque🥹 <p>8:06 am</p></div>
+      <div class="right"><span>labo hrum! Ipsum?🫠</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis velit🙂 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?💥</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Lorem ipsum😍 <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit😨 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?🫠</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim mstias👍 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?🥵</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque💥 <p>8:06 am</p></div>
+      <div class="right"><span>labom Ipsum?🥵</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit💥 <p>8:06 am</p></div>
+      <div class="right"><span>habum! Ipsum?👍</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+
+      <div class="date">13/01/2025</div>
+      <div class="left">Lorem ipsum🧸 <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem😅</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit🥹 <p>8:06 am</p></div>
+      <div class="right"><span>lab hrum😊 Ipsum?</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim mostias🥵 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum🤗</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque😅 <p>8:06 am</p></div>
+      <div class="right"><span>laborum harum!🙂</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit😨 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?😅</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Lorem ipsum🥹 <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem🫠</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit👍 <p>8:06 am</p></div>
+      <div class="right"><span>laborum 🤗Ipsum?</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim molestias😅 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum😋?</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque😋 <p>8:06 am</p></div>
+      <div class="right"><span>laborum harum! Ips🥹</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit🫠 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?😋</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+
+      <div class="date">17/02/2025</div>
+      <div class="left">Lorem😊 ipsum <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem🫠</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit👍 <p>8:06 am</p></div>
+      <div class="right"><span>la harum! Ips🤗</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim hoe😜 <p>8:06 am</p></div>
+      <div class="right"><span>laborum ha😊 Ipsum?</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque😅 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?🧁</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum wow😜 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?😋</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Lorem ipsum <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem😅</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit😍 <p>8:06 am</p></div>
+      <div class="right"><span>laborum! egypt😜</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim mestias😡 <p>8:06 am</p></div>
+      <div class="right"><span>laborum! Ipsum?😅</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque😍 <p>8:06 am</p></div>
+      <div class="right"><span>laborum hpsum🍒</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum🍒 velit😊 <p>8:06 am</p></div>
+      <div class="right"><span> Ips?🤗</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+
+      <div class="date">21/02/2025</div>
+      <div class="left">Lorem ipsum😋 <p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem😅</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit🥵 <p>8:06 am</p></div>
+      <div class="right"><span>laborum😊 Ipsu?</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim molestias😋 <p>8:06 am</p></div>
+      <div class="right"><span>laborum  Ipsum💐🌷</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque 🍒<p>8:06 am</p></div>
+      <div class="right"><span>laborum harum!😋</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit😋 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?🤗</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Lorem ipsum 🌷🌸<p>8:06 am</p></div>
+      <div class="right"><span>dolor sit lorem🧁</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left"> adipisicing elit 🌷<p>8:06 am</p></div>
+      <div class="right"><span>laborum harum😍</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">  enim molestias 🌹<p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?🧁</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque🥵 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?🌺</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">Facilis ipsum velit😍 <p>8:06 am</p></div>
+      <div class="right"><span>harum! Ipsum?😋</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique🍒 eaque🤝 <p>8:06 am</p></div>
+      <div class="right"><span>laborum Ipsum?🤗</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+      <div class="left">similique eaque🧁 <p>8:06 am</p></div>
+      <div class="right"><span>asthala vesthe 👋😋💐</span><p>8:05 am<i class="fa-solid fa-check"></i></p></div>
+
+    </div>
+  <!-- footer -->
+  <footer>
+    <div class="footer-div">
+      <input type="text" placeholder="🙂 Message" required>
+      <!-- <i class="fa-regular fa-face-smile"></i> -->
+      <i class="fa-solid fa-paperclip"></i>
+      <i class="fa-solid fa-indian-rupee-sign"></i>
+      <i class="fa-solid fa-camera"></i>
+      <i id="microphone" class="fa-solid fa-microphone"></i>
+    </div>
+  </footer>
+      
+    </div>
+</body>
+</html>

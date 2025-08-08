@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fan</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .switches{
+      display: flex;
+      padding: 20rem;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+    }
+
+    img {
+    width: 22rem;
+    height: 22rem;
+    }
+  .switch{
+  padding: 12px;
+  border: 2px solid black;
+  margin-bottom: .5rem; 
+  font-size: 1.1rem;
+  width: 5%;
+}
+.switch:hover{
+  background-color: aqua;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* using combinators */
+.switch1:hover ~ img{  
+  animation: rotating 2s linear infinite;
+}
+.switch2:hover ~ img{
+  animation: rotating 1s linear infinite;
+}
+.switch3:hover ~ img{
+  animation: rotating .5s linear infinite;
+}
+.switch4:hover ~ img{
+  animation: rotating .2s linear infinite;
+}
+
+h2{
+  margin: auto;
+  font-size: 2rem;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="switches">
+      <h2>Fan</h2>
+      <button class="switch switch1" >1</button>
+      <button class="switch switch2">2</button>
+      <button class="switch switch3">3</button>
+      <button class="switch switch4">4</button>
+      <img id="btn" src="fan_1.png" alt="image">
+    </div>
+  </div>
+  
+</body>
+</html>
